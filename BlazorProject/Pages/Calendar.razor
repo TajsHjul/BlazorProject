@@ -1,0 +1,190 @@
+﻿@page "/Calendar"
+
+
+
+<h3>Calendar</h3>
+<html>
+<body>
+    <p class="ms-fontSize-14 ms-fontWeight-regular">Please sign in with your microsoft account</p>
+    <a href="#" class="microsoft-login-button shadow-effect">Sign in here</a>
+
+    <div class="row">
+
+        <div class="col-sm-12 col-lg-9">
+            <div class="calendar">
+                <div class="col-sm-12 col-1g-2">
+                    <select name="" id="" class="fluent-input" @onchange="SelectYear">
+                        @for (int i = 2018; i < 2023; i++)
+                        {
+                            <option>@i</option>
+                        }
+                    </select>
+                </div>
+
+                <div class="col-sm-12 col-1g-2">
+                    <select name="" id="" class="fluent-input" @onchange="SelectMonth">
+                        <option value="1">January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                        <option value="5">May</option>
+                        <option value="6">June</option>
+                        <option value="7">July</option>
+                        <option value="8">August</option>
+                        <option value="9">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                    </select>
+                </div>
+
+                <table class="calendar-table">
+                    <thead>
+                        <tr>
+                            <td>Sun</td>
+                            <td>Mon</td>
+                            <td>Tue</td>
+                            <td>Wed</td>
+                            <td>Thu</td>
+                            <td>Fri</td>
+                            <td>Sat</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @for (int r = 0; r < rowsCount; r++)
+                        {
+                            <tr>
+                                <!--Divides rows into 7 days-->
+                                @foreach (var item in days.Skip(r * 7).Take(7))
+                                {
+                                <td> @DayTemplate(item)</td>
+                                }
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+            </div>
+
+        </div>
+
+
+        <!--
+    <div class="col-sm-12 col-md-12 col-lg-3">
+       <div class="ms-depth-16 card">
+           <div class="calendar-toolbar">
+              <button class="toolbar-button">Add Event</button>
+           </div>
+
+            <div class="card-content">
+             <input type="text" class="fluent-input" placeholder="Event">
+             <input type="time" class="fluent-input" placeholder="Event">
+             <input type="time" class="fluent-input" placeholder="Event">
+            </div>
+       </div>
+
+
+
+
+     <div class="ms-depth-16 card">
+        <div class="card-content">
+          <h3 class="ms-fontSize-14 msfontWeight-regular">Tuesday, 22 may 2022</h3>
+
+           <div class="event shadow-effect">
+             <h3 class="ms-fontSize-14 msfontWeight-regular">6:00 PM to 8: PM</h3>
+             <p class="ms-fontSize-11 ms-fontWeight-regular">Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+           </div>
+
+           <div class="event shadow-effect">
+             <h3 class="ms-fontSize-14 msfontWeight-regular">6:00 PM to 8: PM</h3>
+             <p class="ms-fontSize-11 ms-fontWeight-regular">Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+           </div>
+
+           <div class="event shadow-effect">
+             <h3 class="ms-fontSize-14 msfontWeight-regular">6:00 PM to 8: PM</h3>
+             <p class="ms-fontSize-11 ms-fontWeight-regular">Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+           </div>
+
+            <div class="event shadow-effect">
+             <h3 class="ms-fontSize-14 msfontWeight-regular">6:00 PM to 8: PM</h3>
+             <p class="ms-fontSize-11 ms-fontWeight-regular">Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+            </div>
+        </div>
+     </div>
+    </div>-->
+    </div>
+</body>
+</html>
+
+
+@code {  
+
+[Parameter]
+public RenderFragment<CalendarDay> DayTemplate{get;set;}
+
+private int year=2022;
+private int month=05;
+
+private List<CalendarDay> days=new List<CalendarDay>();
+private int rowsCount=0;
+
+void SelectYear(ChangeEventArgs e){
+  year=Convert.ToInt32(e.Value.ToString());
+  //Refresh Calendar
+  UpdateCalendar();
+}
+
+void SelectMonth(ChangeEventArgs e){
+  month=Convert.ToInt32(e.Value.ToString());
+  //Refresh Month
+  UpdateCalendar();
+}
+
+void UpdateCalendar(){
+  days=new List<CalendarDay>();
+
+    //Calculate number of empty days
+    var firstDayDate=new DateTime(year,month,1);
+
+    int weekDayNumber=(int)firstDayDate.DayOfWeek;
+
+    int numberOfEmptyDays=0;
+
+    if(weekDayNumber==7)//Sunday
+    {
+        numberOfEmptyDays=0;
+    }
+    else
+    {
+        numberOfEmptyDays=weekDayNumber;
+    }
+
+    for(int i=0;i<numberOfEmptyDays;i++){
+        days.Add(new CalendarDay{
+            DayNumber=0,
+            IsEmpty=true
+        });
+    }
+
+    int numberOfDaysInMonth=DateTime.DaysInMonth(year,month);
+
+    for(int i=0;i<numberOfDaysInMonth;i++){
+        days.Add(new CalendarDay{
+            DayNumber=i+1,
+            IsEmpty=false,
+            Date=new DateTime(year,month, i+1)
+        });
+    }
+
+    //calculate number of rows
+
+    int remaining=days.Count%7;
+    if(remaining==0)
+        rowsCount=days.Count/7;
+    else
+    rowsCount=Convert.ToInt32(days.Count/7)+1;
+    
+    Console.WriteLine($"Total Rows: {rowsCount} | Number of Empty Days {numberOfEmptyDays} | Month Days {numberOfDaysInMonth}");
+
+}
+}

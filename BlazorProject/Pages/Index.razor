@@ -1,7 +1,23 @@
 ﻿@page "/"
 
-<h1>Hello, world!</h1>
 
-Welcome to your new app.
+<div class="row">
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+    <div class="col-sm-12 col-md-12 col-lg-9">
+        <Calendar>
+            <DayTemplate Context="day">
+                @{
+                    string currentDayClass = day.Date == DateTime.Now.Date ? "current-day" : "";
+
+                }
+                
+                @if (!day.IsEmpty)
+                {
+                    <div class="day shadow-effect @currentDayClass">
+                        <h3 class="ms-fontSize-24 ms-fontWeight-regular">@day.DayNumber</h3>
+                    </div>
+                }
+            </DayTemplate>
+        </Calendar>
+    </div>
+</div>
