@@ -362,6 +362,6 @@ C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandar
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\Razor\Components\AddEvent.razor.g.cs
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\RazorDeclaration\Components\EventsList.razor.g.cs
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\Razor\Components\EventsList.razor.g.cs
-C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\integrity\VWYxLcVIuYqlBva7hOBN2QUM9Bl7AtQ8qNCGDiAi9mY=.hash
-C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\integrity\I-ULJYkAW4yDhbUJgTXljz14etq89tgpMoO9Gi5_GAs=.hash
-C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\integrity\jX0Rl8e-rRFO6X6Qy_rglX733oXTXVjkUeKX3TDbY9k=.hash
+C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\integrity\JrB7z1Xyyq4ohQV1hmqHfLTp-W7L08hekCbo5iXtwwg=.hash
+C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\integrity\9Issm9pAO4w2soREgrByvanIc5GWF1hIjNaJbYFOsvI=.hash
+C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\integrity\ucGnASHCN4e15wJU0wSx0wrqzW5TpjRi_5iOCcfBaDg=.hash

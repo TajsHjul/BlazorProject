@@ -98,7 +98,7 @@ using BlazorProject.Components;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 32 "C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\Pages\Index.razor"
+#line 46 "C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\Pages\Index.razor"
       
     private CalendarDay selectedDay = new CalendarDay
     {
