@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BlazorProject.Shared
+namespace BlazorProject.Components
 {
     #line hidden
     using System;
@@ -89,7 +89,8 @@ using BlazorProject.Components;
 #line default
 #line hidden
 #nullable disable
-    public partial class SurveyPrompt : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/Calendar")]
+    public partial class Calendar : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -97,11 +98,77 @@ using BlazorProject.Components;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 12 "C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\Shared\SurveyPrompt.razor"
-       
-    // Demonstrates how a parent component can supply parameters
-    [Parameter]
-    public string Title { get; set; }
+#line 120 "C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\Components\Calendar.razor"
+         
+
+[Parameter]
+public RenderFragment<CalendarDay> DayTemplate{get;set;}
+
+private int year=2022;
+private int month=05;
+
+private List<CalendarDay> days=new List<CalendarDay>();
+private int rowsCount=0;
+
+void SelectYear(ChangeEventArgs e){
+  year=Convert.ToInt32(e.Value.ToString());
+  //Refresh Calendar
+  UpdateCalendar();
+}
+
+void SelectMonth(ChangeEventArgs e){
+  month=Convert.ToInt32(e.Value.ToString());
+  //Refresh Month
+  UpdateCalendar();
+}
+
+void UpdateCalendar(){
+  days=new List<CalendarDay>();
+
+    //Calculate number of empty days
+    var firstDayDate=new DateTime(year,month,1);
+
+    int weekDayNumber=(int)firstDayDate.DayOfWeek;
+
+    int numberOfEmptyDays=0;
+
+    if(weekDayNumber==7)//Sunday
+    {
+        numberOfEmptyDays=0;
+    }
+    else
+    {
+        numberOfEmptyDays=weekDayNumber;
+    }
+
+    for(int i=0;i<numberOfEmptyDays;i++){
+        days.Add(new CalendarDay{
+            DayNumber=0,
+            IsEmpty=true
+        });
+    }
+
+    int numberOfDaysInMonth=DateTime.DaysInMonth(year,month);
+
+    for(int i=0;i<numberOfDaysInMonth;i++){
+        days.Add(new CalendarDay{
+            DayNumber=i+1,
+            IsEmpty=false,
+            Date=new DateTime(year,month, i+1)
+        });
+    }
+
+    //calculate number of rows
+
+    int remaining=days.Count%7;
+    if(remaining==0)
+        rowsCount=days.Count/7;
+    else
+    rowsCount=Convert.ToInt32(days.Count/7)+1;
+    
+    Console.WriteLine($"Total Rows: {rowsCount} | Number of Empty Days {numberOfEmptyDays} | Month Days {numberOfDaysInMonth}");
+
+}
 
 #line default
 #line hidden

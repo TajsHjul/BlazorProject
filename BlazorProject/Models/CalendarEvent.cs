@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace BlazorProject.Modles{
 
     public class CalendarEvent{
-        public string Subjet{get;set;}
+        public string Subject{get;set;}
 
         public DateTime StartDate{get;set;}
 

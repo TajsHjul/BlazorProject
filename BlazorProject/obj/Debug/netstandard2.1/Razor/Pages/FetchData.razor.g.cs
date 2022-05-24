@@ -79,6 +79,13 @@ using BlazorProject.Modles;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\_Imports.razor"
+using BlazorProject.Components;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/fetchdata")]
     public partial class FetchData : Microsoft.AspNetCore.Components.ComponentBase
     {

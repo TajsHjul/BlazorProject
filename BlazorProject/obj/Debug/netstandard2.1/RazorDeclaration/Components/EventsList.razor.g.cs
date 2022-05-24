@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BlazorProject.Shared
+namespace BlazorProject.Components
 {
     #line hidden
     using System;
@@ -89,7 +89,7 @@ using BlazorProject.Components;
 #line default
 #line hidden
 #nullable disable
-    public partial class SurveyPrompt : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class EventsList : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -97,11 +97,10 @@ using BlazorProject.Components;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 12 "C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\Shared\SurveyPrompt.razor"
+#line 26 "C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\Components\EventsList.razor"
        
-    // Demonstrates how a parent component can supply parameters
     [Parameter]
-    public string Title { get; set; }
+    public CalendarDay SelectedDay { get; set; }
 
 #line default
 #line hidden

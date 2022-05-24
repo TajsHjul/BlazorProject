@@ -155,7 +155,6 @@ C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandar
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\BlazorProject.csproj.CoreCompileInputs.cache
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\BlazorProject.RazorComponent.input.cache
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\RazorDeclaration\App.razor.g.cs
-C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Calendar.razor.g.cs
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Counter.razor.g.cs
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Index.razor.g.cs
@@ -169,7 +168,6 @@ C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandar
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\BlazorProject.TagHelpers.output.cache
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\BlazorProject.RazorCoreGenerate.cache
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\Razor\App.razor.g.cs
-C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\Razor\Pages\Calendar.razor.g.cs
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\Razor\Pages\Counter.razor.g.cs
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\Razor\Pages\FetchData.razor.g.cs
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\Razor\Pages\Index.razor.g.cs
@@ -357,6 +355,13 @@ C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandar
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\BlazorProject.dll
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\BlazorProject.pdb
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\scopedcss\bundle\BlazorProject.styles.css
-C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\integrity\e7b-Tj3it9ErQmSD6AqNHFn2DRNO3x8hRA1SacnYlnI=.hash
-C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\integrity\jUEqJU_-sOeBfQBPuK4nQ1bUODcbjNsbfVsbJfmD12s=.hash
-C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\integrity\-TgQW7kySnCLL276l2c-QicweIs8Dh1iLpwvL336vjQ=.hash
+C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\BlazorProject.csproj.AssemblyReference.cache
+C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\RazorDeclaration\Components\Calendar.razor.g.cs
+C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\Razor\Components\Calendar.razor.g.cs
+C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\RazorDeclaration\Components\AddEvent.razor.g.cs
+C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\Razor\Components\AddEvent.razor.g.cs
+C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\RazorDeclaration\Components\EventsList.razor.g.cs
+C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\Razor\Components\EventsList.razor.g.cs
+C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\integrity\VWYxLcVIuYqlBva7hOBN2QUM9Bl7AtQ8qNCGDiAi9mY=.hash
+C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\integrity\I-ULJYkAW4yDhbUJgTXljz14etq89tgpMoO9Gi5_GAs=.hash
+C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\integrity\jX0Rl8e-rRFO6X6Qy_rglX733oXTXVjkUeKX3TDbY9k=.hash

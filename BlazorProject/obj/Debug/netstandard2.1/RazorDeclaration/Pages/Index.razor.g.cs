@@ -82,6 +82,13 @@ using BlazorProject.Modles;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\_Imports.razor"
+using BlazorProject.Components;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -90,6 +97,17 @@ using BlazorProject.Modles;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 32 "C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\Pages\Index.razor"
+      
+    private CalendarDay selectedDay = new CalendarDay
+    {
+        Date = DateTime.Now
+    };
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

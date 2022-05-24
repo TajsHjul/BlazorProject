@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BlazorProject.Pages
+namespace BlazorProject.Components
 {
     #line hidden
     using System;
@@ -82,8 +82,14 @@ using BlazorProject.Modles;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/Calendar")]
-    public partial class Calendar : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 11 "C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\_Imports.razor"
+using BlazorProject.Components;
+
+#line default
+#line hidden
+#nullable disable
+    public partial class AddEvent : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -91,77 +97,44 @@ using BlazorProject.Modles;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 120 "C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\Pages\Calendar.razor"
-         
+#line 20 "C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\Components\AddEvent.razor"
+       
 
-[Parameter]
-public RenderFragment<CalendarDay> DayTemplate{get;set;}
+        [Parameter]
+        public CalendarDay SelectedDay { get; set; }
 
-private int year=2022;
-private int month=05;
+    private CalendarEvent model = new CalendarEvent();
 
-private List<CalendarDay> days=new List<CalendarDay>();
-private int rowsCount=0;
-
-void SelectYear(ChangeEventArgs e){
-  year=Convert.ToInt32(e.Value.ToString());
-  //Refresh Calendar
-  UpdateCalendar();
-}
-
-void SelectMonth(ChangeEventArgs e){
-  month=Convert.ToInt32(e.Value.ToString());
-  //Refresh Month
-  UpdateCalendar();
-}
-
-void UpdateCalendar(){
-  days=new List<CalendarDay>();
-
-    //Calculate number of empty days
-    var firstDayDate=new DateTime(year,month,1);
-
-    int weekDayNumber=(int)firstDayDate.DayOfWeek;
-
-    int numberOfEmptyDays=0;
-
-    if(weekDayNumber==7)//Sunday
+    private void AddEventToSelectedDay()
     {
-        numberOfEmptyDays=0;
-    }
-    else
-    {
-        numberOfEmptyDays=weekDayNumber;
-    }
+        //Convert time within the selected day
+        model.StartDate = new DateTime(SelectedDay.Date.Year,
+            SelectedDay.Date.Month,
+            SelectedDay.Date.Day,
+            model.StartDate.Hour,
+            model.StartDate.Minute,
+            0);
 
-    for(int i=0;i<numberOfEmptyDays;i++){
-        days.Add(new CalendarDay{
-            DayNumber=0,
-            IsEmpty=true
+        model.EndDate = new DateTime(SelectedDay.Date.Year,
+            SelectedDay.Date.Month,
+            SelectedDay.Date.Day,
+            model.EndDate.Hour,
+            model.EndDate.Minute,
+            0);
+
+        if (SelectedDay.Events == null)
+            SelectedDay.Events = new List<CalendarEvent>();
+
+        SelectedDay.Events.Add(new CalendarEvent
+        {
+            Subject=model.Subject,
+            StartDate=model.StartDate,
+            EndDate=model.EndDate
         });
+        Console.WriteLine($"Total Events in Day {SelectedDay.Events.Count} | {model.Subject} | {model.StartDate} | {model.EndDate}");
+        model = new CalendarEvent();
+
     }
-
-    int numberOfDaysInMonth=DateTime.DaysInMonth(year,month);
-
-    for(int i=0;i<numberOfDaysInMonth;i++){
-        days.Add(new CalendarDay{
-            DayNumber=i+1,
-            IsEmpty=false,
-            Date=new DateTime(year,month, i+1)
-        });
-    }
-
-    //calculate number of rows
-
-    int remaining=days.Count%7;
-    if(remaining==0)
-        rowsCount=days.Count/7;
-    else
-    rowsCount=Convert.ToInt32(days.Count/7)+1;
-    
-    Console.WriteLine($"Total Rows: {rowsCount} | Number of Empty Days {numberOfEmptyDays} | Month Days {numberOfDaysInMonth}");
-
-}
 
 #line default
 #line hidden
