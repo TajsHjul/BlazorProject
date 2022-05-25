@@ -1637,33 +1637,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tajs\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Rezan-Pc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tajs\\source\\repos\\BlazorProject\\BlazorProject\\BlazorProject.csproj",
+      "projectUniqueName": "C:\\Users\\Rezan-Pc\\Desktop\\BlazorProject\\BlazorProject\\BlazorProject.csproj",
       "projectName": "BlazorProject",
-      "projectPath": "C:\\Users\\Tajs\\source\\repos\\BlazorProject\\BlazorProject\\BlazorProject.csproj",
-      "packagesPath": "C:\\Users\\Tajs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tajs\\source\\repos\\BlazorProject\\BlazorProject\\obj\\",
+      "projectPath": "C:\\Users\\Rezan-Pc\\Desktop\\BlazorProject\\BlazorProject\\BlazorProject.csproj",
+      "packagesPath": "C:\\Users\\Rezan-Pc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rezan-Pc\\Desktop\\BlazorProject\\BlazorProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Tajs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Rezan-Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://packages.stride3d.net/nuget": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.1": {
@@ -1715,7 +1717,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

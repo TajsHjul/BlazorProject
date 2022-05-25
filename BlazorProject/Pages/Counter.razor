@@ -6,11 +6,92 @@
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
+
+<p>Current count: @currentWeek</p>
+
+<button class="btn btn-primary" disabled="@IsDisabled">lalal</button>
+
+
 @code {
+    /*
+    An idea to disable the button of to add a work shift
+    If he already has 15 hours a week
+    */
+    protected bool IsDisabled { get; set; }
+    //Get the start of the current week's date
+    DateTime startDate = DateTime.Today.AddDays(-1 * (int)(DateTime.Today.DayOfWeek));
+    //Fetch the end date of the current week
+    DateTime slutDate = DateTime.Today.AddDays(7 - (int)DateTime.Today.DayOfWeek);
     private int currentCount = 0;
+
+    //try to print the dates
+    private string currentWeek = "";
+    //a method to calc the hours in week
+    public void calcHours(DateTime startDate, DateTime slutDate)
+    {
+
+        TimeSpan timeSpan = slutDate.Subtract(startDate);
+        currentWeek = timeSpan.Hours.ToString() + "\n" + timeSpan.TotalHours.ToString();
+        if (timeSpan.TotalHours <= 15)
+        {
+            IsDisabled = false;
+        }
+        else
+        {
+            IsDisabled = true;
+        }
+    }
+
+    /* try....
+    //open at 11
+    private static DateTime start = DateTime.Today.AddHours(11.00);
+    //lock at 21
+    private static DateTime finish = DateTime.Today.AddHours(21.00);
+
+    private struct WorkHours
+    {
+        public double workHours;
+    }
+    private static WorkHours GetWorkHours(DateTime t1, DateTime t2)
+    {
+
+        WorkHours result = new WorkHours();
+        for (DateTime i = t1; i < t2; i = i.AddHours(1))
+        {
+            result.workHours++;
+        }
+        return result;
+    }
+    */
+
+
+
+
+
+
 
     private void IncrementCount()
     {
         currentCount++;
+        calcHours(startDate, slutDate);
+        /*
+        try ....
+        WorkHours result;
+        var now = DateTime.Today;
+        var currentDay = now.DayOfWeek;
+        int days = (int)currentDay;
+        DateTime sunday = now.AddDays(-days);
+        var daysThisWeek = Enumerable.Range(0, 7)
+            .Select(d => sunday.AddDays(d))
+            .ToList();
+        foreach (var item in daysThisWeek)
+        {
+            result = GetWorkHours(start, finish);
+            Console.WriteLine(result.workHours);
+
+        }
+
+            */
+
     }
 }
