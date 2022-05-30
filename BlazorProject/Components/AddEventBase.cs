@@ -14,7 +14,7 @@ namespace BlazorProject.Components
 
         protected CalendarEvent model = new CalendarEvent();
 
-        public void AddEventToSelectedDay()
+        protected void AddEventToSelectedDay()
         {
             //Convert time within the selected day
             model.StartDate = new DateTime(SelectedDay.Date.Year,

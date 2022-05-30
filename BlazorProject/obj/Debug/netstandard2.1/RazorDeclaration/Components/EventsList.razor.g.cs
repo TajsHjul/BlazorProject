@@ -89,7 +89,7 @@ using BlazorProject.Components;
 #line default
 #line hidden
 #nullable disable
-    public partial class EventsList : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class EventsList : EventsListBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -99,20 +99,20 @@ using BlazorProject.Components;
 #nullable restore
 #line 29 "C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\Components\EventsList.razor"
        
-    [Parameter]
-    public CalendarDay SelectedDay { get; set; }
+    //[Parameter]
+    //public CalendarDay SelectedDay { get; set; }
 
-    private void ExportToICS()
-    {
+    //private void ExportToICS()
+    //{
 
-        foreach (var item in SelectedDay.Events)
-        {
-            Console.WriteLine($"Test data {SelectedDay.Events.Count} | {item.StartDate} | {item.EndDate}  | {item.Subject}");
-        }
+    //    foreach (var item in SelectedDay.Events)
+    //    {
+    //        Console.WriteLine($"Test data {SelectedDay.Events.Count} | {item.StartDate} | {item.EndDate}  | {item.Subject}");
+    //    }
 
 
 
-    }
+    //}
 
 #line default
 #line hidden

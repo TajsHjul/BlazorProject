@@ -1,4 +1,3 @@
-C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProjectWebAPI\bin\Debug\netcoreapp3.1\BlazorProject.StaticWebAssets.xml
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProjectWebAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProjectWebAPI\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProjectWebAPI\bin\Debug\netcoreapp3.1\BlazorProjectWebAPI.StaticWebAssets.xml

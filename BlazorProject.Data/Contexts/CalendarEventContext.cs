@@ -10,8 +10,10 @@ namespace BlazorProject.Data.Contexts
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data source=events.db");
+            optionsBuilder.UseSqlite("Data source=events.db");            
         }
         public DbSet<CalendarEvent> CalendarEvents { get; set; }
+
+       
     }
 }

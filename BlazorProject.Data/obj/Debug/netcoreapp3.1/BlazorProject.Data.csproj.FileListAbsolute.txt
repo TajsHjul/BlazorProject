@@ -14,7 +14,6 @@ C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas
 C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject.Data\obj\Debug\netcoreapp3.1\BlazorProject.Data.dll
 C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject.Data\obj\Debug\netcoreapp3.1\BlazorProject.Data.pdb
 C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject.Data\obj\Debug\netcoreapp3.1\BlazorProject.Data.genruntimeconfig.cache
-C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject.Data\bin\Debug\netcoreapp3.1\BlazorProject.StaticWebAssets.xml
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject.Data\bin\Debug\netcoreapp3.1\BlazorProject.Data.deps.json
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject.Data\bin\Debug\netcoreapp3.1\BlazorProject.Data.runtimeconfig.json
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject.Data\bin\Debug\netcoreapp3.1\BlazorProject.Data.runtimeconfig.dev.json
