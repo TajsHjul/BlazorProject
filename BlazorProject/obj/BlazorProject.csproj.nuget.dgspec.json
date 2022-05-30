@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tajs\\Desktop\\BlazorProject-Nichlas-TestBranch - 3\\BlazorProject-Nichlas-TestBranch\\BlazorProject\\BlazorProject.csproj": {}
+    "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tajs\\Desktop\\BlazorProject-Nichlas-TestBranch - 3\\BlazorProject-Nichlas-TestBranch\\BlazorProject\\BlazorProject.csproj": {
+    "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tajs\\Desktop\\BlazorProject-Nichlas-TestBranch - 3\\BlazorProject-Nichlas-TestBranch\\BlazorProject\\BlazorProject.csproj",
+        "projectUniqueName": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj",
         "projectName": "BlazorProject",
-        "projectPath": "C:\\Users\\Tajs\\Desktop\\BlazorProject-Nichlas-TestBranch - 3\\BlazorProject-Nichlas-TestBranch\\BlazorProject\\BlazorProject.csproj",
-        "packagesPath": "C:\\Users\\Tajs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tajs\\Desktop\\BlazorProject-Nichlas-TestBranch - 3\\BlazorProject-Nichlas-TestBranch\\BlazorProject\\obj\\",
+        "projectPath": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj",
+        "packagesPath": "C:\\Users\\rulle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Tajs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rulle\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
