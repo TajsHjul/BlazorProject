@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tTkk0RQyzzcHp7b3w01kLn9AQnaaww5yLNP/KNbaUIBycLukZ2uoi7fuApDe7mS8q2Oe7NelCKbV0YLLhwu2NQ==",
+  "dgSpecHash": "cGJZAMEhL6JAEkUy144hwjVjtt0kAtNE3lpUsjwG5pPUiVgrN/amYzvJJiQvXbyCn/oIGTVVDfAVM0bC2Kijlw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProjectWebAPI\\BlazorProjectWebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rulle\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\rulle\\.nuget\\packages\\ical.net\\4.2.0\\ical.net.4.2.0.nupkg.sha512",
     "C:\\Users\\rulle\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
     "C:\\Users\\rulle\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.6\\microsoft.aspnetcore.components.3.1.6.nupkg.sha512",
@@ -31,7 +32,7 @@
     "C:\\Users\\rulle\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0\\microsoft.entityframeworkcore.5.0.0.nupkg.sha512",
     "C:\\Users\\rulle\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0\\microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\rulle\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.0\\microsoft.entityframeworkcore.analyzers.5.0.0.nupkg.sha512",
-    "C:\\Users\\rulle\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.25\\microsoft.entityframeworkcore.design.3.1.25.nupkg.sha512",
+    "C:\\Users\\rulle\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.0\\microsoft.entityframeworkcore.design.5.0.0.nupkg.sha512",
     "C:\\Users\\rulle\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.0\\microsoft.entityframeworkcore.relational.5.0.0.nupkg.sha512",
     "C:\\Users\\rulle\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\5.0.0\\microsoft.entityframeworkcore.sqlite.5.0.0.nupkg.sha512",
     "C:\\Users\\rulle\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\5.0.0\\microsoft.entityframeworkcore.sqlite.core.5.0.0.nupkg.sha512",

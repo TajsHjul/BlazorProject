@@ -13,7 +13,6 @@ namespace BlazorProject.Models
 
         public string LastName { get; set; }
 
-        public int WorkHoursWeekly { get; set; }
-
+        public int WeeklyHours { get; set; }
     }
 }

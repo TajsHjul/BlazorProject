@@ -9,6 +9,11 @@ namespace BlazorProject.Data.Contexts
 {
     public class CalendarEventContext : DbContext
     {
+        public CalendarEventContext(DbContextOptions<CalendarEventContext> options) : base(options)
+        {
+
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite("Data source=events.db");            

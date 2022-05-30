@@ -12,7 +12,7 @@ namespace BlazorProjectWebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CalendarEventsController : ControllerBase
+    public class CalendarEventsController : Controller
     {
         private readonly CalendarEventContext _context;
 

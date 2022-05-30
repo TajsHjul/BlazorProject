@@ -1,3 +1,4 @@
+using BlazorProject.Models;
 using System;
 using System.Collections.Generic;
 
@@ -10,5 +11,7 @@ namespace BlazorProject.Modles{
         public DateTime StartDate{get;set;}
 
         public DateTime EndDate{get;set;}
+
+        public List<Employees> WorkTime { get; set; }
     }
 }

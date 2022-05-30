@@ -1,4 +1,5 @@
-﻿using BlazorProject.Modles;
+﻿using BlazorProject.Models;
+using BlazorProject.Modles;
 using Microsoft.AspNetCore.Components;
 using System;
 using System.Collections.Generic;
@@ -12,10 +13,13 @@ namespace BlazorProject.Components
         [Parameter]
         public CalendarDay SelectedDay { get; set; }
 
-        protected CalendarEvent model = new CalendarEvent();
+        protected CalendarEvent model = new CalendarEvent();     
+
+        
 
         protected void AddEventToSelectedDay()
         {
+            
             //Convert time within the selected day
             model.StartDate = new DateTime(SelectedDay.Date.Year,
                 SelectedDay.Date.Month,
@@ -36,9 +40,10 @@ namespace BlazorProject.Components
 
             SelectedDay.Events.Add(new CalendarEvent
             {
+               
                 Subject = model.Subject,
                 StartDate = model.StartDate,
-                EndDate = model.EndDate
+                EndDate = model.EndDate                
             });
             Console.WriteLine($"Total Events in Day {SelectedDay.Events.Count} | {model.Subject} | {model.StartDate} | {model.EndDate}");
             model = new CalendarEvent();
