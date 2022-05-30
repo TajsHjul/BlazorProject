@@ -14,6 +14,8 @@ namespace BlazorProject.Data.Contexts
         }
         public DbSet<CalendarEvent> CalendarEvents { get; set; }
 
+        public DbSet<CalendarDay> CalendarDays { get; set; }
+
        
     }
 }
