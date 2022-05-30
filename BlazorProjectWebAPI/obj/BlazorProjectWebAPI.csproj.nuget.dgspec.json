@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProjectWebAPI\\BlazorProjectWebAPI.csproj": {}
+    "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProjectWebAPI\\BlazorProjectWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject.Data\\BlazorProject.Data.csproj": {
+    "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProject.Data\\BlazorProject.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject.Data\\BlazorProject.Data.csproj",
+        "projectUniqueName": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProject.Data\\BlazorProject.Data.csproj",
         "projectName": "BlazorProject.Data",
-        "projectPath": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject.Data\\BlazorProject.Data.csproj",
+        "projectPath": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProject.Data\\BlazorProject.Data.csproj",
         "packagesPath": "C:\\Users\\rulle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject.Data\\obj\\",
+        "outputPath": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProject.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj": {
-                "projectPath": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj"
+              "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj": {
+                "projectPath": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj"
               }
             }
           }
@@ -51,6 +51,12 @@
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.0, )"
             },
@@ -84,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProjectWebAPI\\BlazorProjectWebAPI.csproj": {
+    "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProjectWebAPI\\BlazorProjectWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProjectWebAPI\\BlazorProjectWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProjectWebAPI\\BlazorProjectWebAPI.csproj",
         "projectName": "BlazorProjectWebAPI",
-        "projectPath": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProjectWebAPI\\BlazorProjectWebAPI.csproj",
+        "projectPath": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProjectWebAPI\\BlazorProjectWebAPI.csproj",
         "packagesPath": "C:\\Users\\rulle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProjectWebAPI\\obj\\",
+        "outputPath": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProjectWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -114,11 +120,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject.Data\\BlazorProject.Data.csproj": {
-                "projectPath": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject.Data\\BlazorProject.Data.csproj"
+              "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProject.Data\\BlazorProject.Data.csproj": {
+                "projectPath": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProject.Data\\BlazorProject.Data.csproj"
               },
-              "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj": {
-                "projectPath": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj"
+              "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj": {
+                "projectPath": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj"
               }
             }
           }
@@ -172,6 +178,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.25, 3.1.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -184,14 +196,14 @@
         }
       }
     },
-    "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj": {
+    "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj",
+        "projectUniqueName": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj",
         "projectName": "BlazorProject",
-        "projectPath": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj",
+        "projectPath": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj",
         "packagesPath": "C:\\Users\\rulle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\obj\\",
+        "outputPath": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
