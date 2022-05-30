@@ -89,89 +89,13 @@ using BlazorProject.Components;
 #line default
 #line hidden
 #nullable disable
-    public partial class Calendar : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class Calendar : CalendarBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 117 "C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\Components\Calendar.razor"
-         
-
-[Parameter]
-public RenderFragment<CalendarDay> DayTemplate{get;set;}
-
-private int year=2022;
-private int month=05;
-
-private List<CalendarDay> days=new List<CalendarDay>();
-private int rowsCount=0;
-
-void SelectYear(ChangeEventArgs e){
-  year=Convert.ToInt32(e.Value.ToString());
-  //Refresh Calendar
-  UpdateCalendar();
-}
-
-void SelectMonth(ChangeEventArgs e){
-  month=Convert.ToInt32(e.Value.ToString());
-  //Refresh Month
-  UpdateCalendar();
-}
-
-void UpdateCalendar(){
-  days=new List<CalendarDay>();
-
-    //Calculate number of empty days
-    var firstDayDate=new DateTime(year,month,1);
-
-    int weekDayNumber=(int)firstDayDate.DayOfWeek;
-
-    int numberOfEmptyDays=0;
-
-    if(weekDayNumber==7)//Sunday
-    {
-        numberOfEmptyDays=0;
-    }
-    else
-    {
-        numberOfEmptyDays=weekDayNumber;
-    }
-
-    for(int i=0;i<numberOfEmptyDays;i++){
-        days.Add(new CalendarDay{
-            DayNumber=0,
-            IsEmpty=true
-        });
-    }
-
-    int numberOfDaysInMonth=DateTime.DaysInMonth(year,month);
-
-    for(int i=0;i<numberOfDaysInMonth;i++){
-        days.Add(new CalendarDay{
-            DayNumber=i+1,
-            IsEmpty=false,
-            Date=new DateTime(year,month, i+1)
-        });
-    }
-
-    //calculate number of rows
-
-    int remaining=days.Count%7;
-    if(remaining==0)
-        rowsCount=days.Count/7;
-    else
-    rowsCount=Convert.ToInt32(days.Count/7)+1;
-    
-    Console.WriteLine($"Total Rows: {rowsCount} | Number of Empty Days {numberOfEmptyDays} | Month Days {numberOfDaysInMonth}");
-
-}
-
-#line default
-#line hidden
-#nullable disable
     }
 }
 #pragma warning restore 1591

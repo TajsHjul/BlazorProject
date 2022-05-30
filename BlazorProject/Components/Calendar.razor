@@ -1,4 +1,6 @@
-﻿
+﻿@inherits CalendarBase
+
+
 <h3>Calendar</h3>
 <html>
 <body>
@@ -114,7 +116,7 @@
 </html>
 
 
-@code {  
+@*@code {  
 
 [Parameter]
 public RenderFragment<CalendarDay> DayTemplate{get;set;}
@@ -183,5 +185,5 @@ void UpdateCalendar(){
     
     Console.WriteLine($"Total Rows: {rowsCount} | Number of Empty Days {numberOfEmptyDays} | Month Days {numberOfDaysInMonth}");
 
-}
+}*@
 }

@@ -1,4 +1,4 @@
-﻿
+﻿@inherits EventsListBase
 
 <div class="ms-depth-16 card">
     <EditForm Model="SelectedDay" OnValidSubmit="ExportToICS">
@@ -27,18 +27,18 @@
 </div>
 
 @code {
-    [Parameter]
-    public CalendarDay SelectedDay { get; set; }
+    //[Parameter]
+    //public CalendarDay SelectedDay { get; set; }
 
-    private void ExportToICS()
-    {
+    //private void ExportToICS()
+    //{
 
-        foreach (var item in SelectedDay.Events)
-        {
-            Console.WriteLine($"Test data {SelectedDay.Events.Count} | {item.StartDate} | {item.EndDate}  | {item.Subject}");
-        }
+    //    foreach (var item in SelectedDay.Events)
+    //    {
+    //        Console.WriteLine($"Test data {SelectedDay.Events.Count} | {item.StartDate} | {item.EndDate}  | {item.Subject}");
+    //    }
 
 
 
-    }
+    //}
 }
