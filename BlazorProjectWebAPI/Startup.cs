@@ -30,9 +30,16 @@ namespace BlazorProjectWebAPI
         {
             services.AddDbContext<CalendarEventContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            services.AddScoped<EventRepository, EventRepository>();
+            services.AddScoped<IEventRepository, EventRepository>();
+            services.AddScoped<IEmployeeRepository, EmployeesRepository>();
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("Open", builder => builder.AllowAnyOrigin().AllowAnyHeader());
+            });
 
             services.AddControllers();
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,6 +55,8 @@ namespace BlazorProjectWebAPI
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors("Open");
 
             app.UseEndpoints(endpoints =>
             {

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BlazorProject.Data.Repositories
 {
-    interface IEventRepository
+    public interface IEventRepository
     {
         IEnumerable<CalendarEvent> GetAllCalendarEvents();
         CalendarEvent GetCalendarEventById(int employeeId);

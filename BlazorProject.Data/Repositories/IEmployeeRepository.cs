@@ -12,5 +12,6 @@ namespace BlazorProject.Data.Repositories
         Employees AddEmployee(Employees employee);
         Employees UpdateEmployee(Employees employee);
         void DeleteEmployee(int employeeId);
+       
     }
 }

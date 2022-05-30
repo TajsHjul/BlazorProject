@@ -25,7 +25,7 @@ namespace BlazorProjectWebAPI.Controllers
         [HttpGet]
         public IActionResult GetAllEmployeess()
         {
-            return Ok(_EmployeesRepository.GetAllEmployeess());
+            return Ok(_EmployeesRepository.GetAllEmployees());
         }
 
         [HttpGet("{id}")]
