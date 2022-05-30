@@ -355,3 +355,4 @@ C:\Users\rulle\OneDrive\Dokumenter\GitHub\BlazorProject\BlazorProjectWebAPI\obj\
 C:\Users\rulle\OneDrive\Dokumenter\GitHub\BlazorProject\BlazorProjectWebAPI\obj\Debug\netcoreapp3.1\BlazorProjectWebAPI.dll
 C:\Users\rulle\OneDrive\Dokumenter\GitHub\BlazorProject\BlazorProjectWebAPI\obj\Debug\netcoreapp3.1\BlazorProjectWebAPI.pdb
 C:\Users\rulle\OneDrive\Dokumenter\GitHub\BlazorProject\BlazorProjectWebAPI\obj\Debug\netcoreapp3.1\BlazorProjectWebAPI.genruntimeconfig.cache
+C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProjectWebAPI\bin\Debug\netcoreapp3.1\BlazorProject.StaticWebAssets.xml

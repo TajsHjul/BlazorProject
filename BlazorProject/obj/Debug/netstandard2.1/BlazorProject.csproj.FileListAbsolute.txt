@@ -769,9 +769,6 @@ C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas
 C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject\obj\Debug\netstandard2.1\integrity\NCbs5gkgfLrHbMXgSMdBljxOgwcORRO1qSC8A8GUn5Q=.hash
 C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject\obj\Debug\netstandard2.1\integrity\OcI1RMWRKGtIno1gxSj7iEEhD7WY9i7_bGgWynnqn-Q=.hash
 C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject\obj\Debug\netstandard2.1\integrity\T4xTwhNBm9RezT4Wrp68iq1q2G9Ytm6_cihWY9eowh8=.hash
-C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\integrity\JPDqHlSixKtj90ePQp6veSmvoT_1ivWroI6jznugOsA=.hash
-C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\integrity\0B0rp7i4t6L3SkeuUtuoCfKyu0tNyPq525P5F44UZ-Y=.hash
-C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\integrity\YmYdizThiw6fyWrdtg7V6NZUvoITzxmTdgJ0Ud_jZ-g=.hash
 C:\Users\rulle\OneDrive\Dokumenter\GitHub\BlazorProject\BlazorProject\bin\Debug\netstandard2.1\BlazorProject.StaticWebAssets.xml
 C:\Users\rulle\OneDrive\Dokumenter\GitHub\BlazorProject\BlazorProject\bin\Debug\netstandard2.1\BlazorProject.dll
 C:\Users\rulle\OneDrive\Dokumenter\GitHub\BlazorProject\BlazorProject\bin\Debug\netstandard2.1\BlazorProject.pdb
@@ -1159,3 +1156,6 @@ C:\Users\rulle\OneDrive\Dokumenter\GitHub\BlazorProject\BlazorProject\obj\Debug\
 C:\Users\rulle\OneDrive\Dokumenter\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\integrity\opUq3JIRHCewp_MlD8gkBnGRLJlQPGwjhPDdCkplPy0=.hash
 C:\Users\rulle\OneDrive\Dokumenter\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\integrity\uoPv-AqsfT8g2tf_lyhqq13gH0h2HdbwMDLVqgY3oZ4=.hash
 C:\Users\rulle\OneDrive\Dokumenter\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\integrity\HFc39Xc5GBqIFVSfp0FXCbuNnmcgt2qpuhiBspE7HCI=.hash
+C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\integrity\3B9jOXxuAxVUh3ZsT27T8yaoyfZQUKx4Z5AwZHbQ9iY=.hash
+C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\integrity\dn5ZofAVuJI4epz2GYkOKhsDFXkvFqblDlqF8EysV28=.hash
+C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\obj\Debug\netstandard2.1\integrity\-goa_el4VhWG-nI3PzGZ6-4eISSlgSCYJ37R9JgdouI=.hash

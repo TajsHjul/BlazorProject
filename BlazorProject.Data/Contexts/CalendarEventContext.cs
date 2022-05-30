@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using BlazorProject.Models;
 using BlazorProject.Modles;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,6 +16,8 @@ namespace BlazorProject.Data.Contexts
         public DbSet<CalendarEvent> CalendarEvents { get; set; }
 
         public DbSet<CalendarDay> CalendarDays { get; set; }
+
+        public DbSet<Employees> Employee { get; set; }
 
        
     }
