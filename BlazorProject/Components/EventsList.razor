@@ -1,0 +1,44 @@
+﻿
+
+<div class="ms-depth-16 card">
+    <EditForm Model="SelectedDay" OnValidSubmit="ExportToICS">
+    <div class="card-content">
+        <button class="toolbar-button" type="submit" download="Events.ics">Export to ICS file</button>
+        <h3 class="ms-fontSize-14 msfontWeight-regular">@SelectedDay.Date.ToString("D")</h3>
+        @{
+            if (SelectedDay.Events == null || SelectedDay.Events.Count == 0)
+            {
+                <h3 class="ms-fontSize-14 msfontWeight-regular">No Events</h3>
+            }
+            else
+            {
+                foreach (var item in SelectedDay.Events)
+                {
+                    <div class="event shadow-effect">
+                        <h3 class="ms-fontSize-14 msfontWeight-regular">@item.StartDate.ToString("HH:mm") to @item.EndDate.ToString("HH:mm")</h3>
+                        <p class="ms-fontSize-11 ms-fontWeight-regular">@item.Subject</p>
+                    </div>
+                }
+
+            }
+        }
+    </div>
+    </EditForm>
+</div>
+
+@code {
+    [Parameter]
+    public CalendarDay SelectedDay { get; set; }
+
+    private void ExportToICS()
+    {
+
+        foreach (var item in SelectedDay.Events)
+        {
+            Console.WriteLine($"Test data {SelectedDay.Events.Count} | {item.StartDate} | {item.EndDate}  | {item.Subject}");
+        }
+
+
+
+    }
+}

@@ -1,0 +1,16 @@
+C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject.Data\bin\Debug\netcoreapp3.1\BlazorProject.Data.deps.json
+C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject.Data\bin\Debug\netcoreapp3.1\BlazorProject.Data.runtimeconfig.json
+C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject.Data\bin\Debug\netcoreapp3.1\BlazorProject.Data.runtimeconfig.dev.json
+C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject.Data\bin\Debug\netcoreapp3.1\BlazorProject.Data.dll
+C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject.Data\bin\Debug\netcoreapp3.1\BlazorProject.Data.pdb
+C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject.Data\bin\Debug\netcoreapp3.1\BlazorProject.dll
+C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject.Data\bin\Debug\netcoreapp3.1\BlazorProject.pdb
+C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject.Data\obj\Debug\netcoreapp3.1\BlazorProject.Data.csproj.AssemblyReference.cache
+C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject.Data\obj\Debug\netcoreapp3.1\BlazorProject.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject.Data\obj\Debug\netcoreapp3.1\BlazorProject.Data.AssemblyInfoInputs.cache
+C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject.Data\obj\Debug\netcoreapp3.1\BlazorProject.Data.AssemblyInfo.cs
+C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject.Data\obj\Debug\netcoreapp3.1\BlazorProject.Data.csproj.CoreCompileInputs.cache
+C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject.Data\obj\Debug\netcoreapp3.1\BlazorProject.Data.csproj.CopyComplete
+C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject.Data\obj\Debug\netcoreapp3.1\BlazorProject.Data.dll
+C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject.Data\obj\Debug\netcoreapp3.1\BlazorProject.Data.pdb
+C:\Users\Tajs\Desktop\BlazorProject-Nichlas-TestBranch - 3\BlazorProject-Nichlas-TestBranch\BlazorProject.Data\obj\Debug\netcoreapp3.1\BlazorProject.Data.genruntimeconfig.cache
