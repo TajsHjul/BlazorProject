@@ -3,7 +3,7 @@
 <div class="ms-depth-16 card">
     <EditForm Model="model" OnValidSubmit="AddEventToSelectedDay">
         <div class="calendar-toolbar">
-            <button class="toolbar-button" type="submit">Add Event</button>
+            <button class="toolbar-button" type="submit">Add Event</button>           
         </div>
 
         <div class="card-content">
@@ -19,8 +19,8 @@
 
 @code {
 
-        [Parameter]
-        public CalendarDay SelectedDay { get; set; }
+    [Parameter]
+    public CalendarDay SelectedDay { get; set; }
 
     private CalendarEvent model = new CalendarEvent();
 
@@ -54,4 +54,6 @@
         model = new CalendarEvent();
 
     }
+
+   
 }

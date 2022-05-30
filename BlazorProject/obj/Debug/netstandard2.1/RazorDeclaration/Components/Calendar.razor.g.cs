@@ -89,7 +89,6 @@ using BlazorProject.Components;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/Calendar")]
     public partial class Calendar : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -98,7 +97,7 @@ using BlazorProject.Components;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 120 "C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\Components\Calendar.razor"
+#line 117 "C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\Components\Calendar.razor"
          
 
 [Parameter]

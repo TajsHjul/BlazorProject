@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\JrB7z1Xyyq4ohQV1hmqHfLTp-W7L08hekCbo5iXtwwg=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\NTqOF3VRCYM3qT4zbu1NQu6ulD6W9U4BiQIH_EOZf6Y=.hash",
       "Source": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorProject.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorProject.dll.br"
     },
@@ -191,6 +191,16 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
     },
     {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ZtRnhyopcHOTqucuuUv9y5ROanXHEo3Bqi44arpJMn8=.hash",
+      "Source": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Ical.Net.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Ical.Net.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\gqWlik_2I8hVNNIHUO85tIKl8mHj07PpG0kYD2PFGzo=.hash",
+      "Source": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\NodaTime.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/NodaTime.dll.br"
+    },
+    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\FJ_rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=.hash",
       "Source": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.WebAssembly.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.br"
@@ -261,9 +271,14 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\9Issm9pAO4w2soREgrByvanIc5GWF1hIjNaJbYFOsvI=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\EFuLUuNbnnCScv3OImfgYJ9AUOuUhhaFQ5ghW-dfe4c=.hash",
       "Source": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BlazorProject.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorProject.pdb.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\zeDQOrPxHO_1c_aCFH8Kl78L1pENl6R2MqxS0P35hmc=.hash",
+      "Source": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\NodaTime.pdb",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/NodaTime.pdb.br"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash",
@@ -286,7 +301,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ucGnASHCN4e15wJU0wSx0wrqzW5TpjRi_5iOCcfBaDg=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\vhYquVlJW0y5fU6hCuKCZ1-o9tQRgORHyNLWV3AMkoA=.hash",
       "Source": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }

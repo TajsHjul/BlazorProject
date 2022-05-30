@@ -97,10 +97,24 @@ using BlazorProject.Components;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 26 "C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\Components\EventsList.razor"
+#line 29 "C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\Components\EventsList.razor"
        
     [Parameter]
     public CalendarDay SelectedDay { get; set; }
+
+
+
+    private void ExportToICS()
+    {
+
+        foreach (var item in SelectedDay.Events)
+        {
+            Console.WriteLine($"Test data {SelectedDay.Events.Count} | {item.StartDate} | {item.EndDate}  | {item.Subject}");
+        }
+
+         
+
+    }
 
 #line default
 #line hidden

@@ -100,8 +100,8 @@ using BlazorProject.Components;
 #line 20 "C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProject\Components\AddEvent.razor"
        
 
-        [Parameter]
-        public CalendarDay SelectedDay { get; set; }
+    [Parameter]
+    public CalendarDay SelectedDay { get; set; }
 
     private CalendarEvent model = new CalendarEvent();
 
@@ -135,6 +135,8 @@ using BlazorProject.Components;
         model = new CalendarEvent();
 
     }
+
+   
 
 #line default
 #line hidden
