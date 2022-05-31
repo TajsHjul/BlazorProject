@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P3ur0O9iIpUu//7cAkpiNp2Tv8E2XIzT3pTkM4Wh0J0XY0J6c13u0N1vs3VJg5BI9FiSh/wbT5AqlrUT2Zq4JA==",
+  "dgSpecHash": "skC4HFIhhY+66XhAfeHJI7Dghc0NMtFEDW7FOropMM+NOcs+2azQLUaeBMh4osWRLUrM0rCz5Syfi1Lc0DFZDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProjectWebAPI\\BlazorProjectWebAPI.csproj",
+  "projectFilePath": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProjectWebAPI\\BlazorProjectWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rulle\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\rulle\\.nuget\\packages\\ical.net\\4.2.0\\ical.net.4.2.0.nupkg.sha512",
@@ -172,8 +172,7 @@
     "C:\\Users\\rulle\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\rulle\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\rulle\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\rulle\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\rulle\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+    "C:\\Users\\rulle\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

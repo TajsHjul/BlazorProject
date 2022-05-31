@@ -32,6 +32,7 @@ namespace BlazorProjectWebAPI
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<IEventRepository, EventRepository>();
             services.AddScoped<IEmployeeRepository, EmployeesRepository>();
+            services.AddScoped<ICalendarRepository, CalendarRepository>();
 
             services.AddCors(options =>
             {

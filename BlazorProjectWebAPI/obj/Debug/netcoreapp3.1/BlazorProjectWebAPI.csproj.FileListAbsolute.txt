@@ -377,5 +377,4 @@ C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProjectWebAPI\bin\Debug\netc
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProjectWebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProjectWebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProjectWebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
-C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProjectWebAPI\bin\Debug\netcoreapp3.1\BlazorProject.StaticWebAssets.xml
 C:\Users\rulle\Documents\GitHub\BlazorProject\BlazorProjectWebAPI\bin\Debug\netcoreapp3.1\Humanizer.dll

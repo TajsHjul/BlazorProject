@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj": {}
+    "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj": {
+    "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj",
+        "projectUniqueName": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj",
         "projectName": "BlazorProject",
-        "projectPath": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj",
+        "projectPath": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\BlazorProject.csproj",
         "packagesPath": "C:\\Users\\rulle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rulle\\OneDrive\\Dokumenter\\GitHub\\BlazorProject\\BlazorProject\\obj\\",
+        "outputPath": "C:\\Users\\rulle\\Documents\\GitHub\\BlazorProject\\BlazorProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
